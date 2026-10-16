@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập - Bố cục trang web bằng HTML5 & CSS</title>
+    <link rel="stylesheet" href="styleee.css">
+</head>
+<body>
+
+    <!-- Container bao bọc toàn bộ trang web -->
+    <div class="container">
+
+        <!-- 1. HEADER: Đầu trang / Banner -->
+        <header>
+            <h1>Trang Web HTML5 & CSS Layout</h1>
+            <p>Sử dụng các thẻ ngữ nghĩa Semantic HTML5</p>
+        </header>
+
+        <!-- 2. NAV: Thanh điều hướng / Menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <!-- Khối chứa phần nội dung chính và cột bên -->
+        <div class="main-wrapper">
+
+            <!-- 3. SECTION: Khu vực chứa nội dung chính -->
+            <section class="content-section">
+                <h2>Bài viết mới nhất</h2>
+
+                <!-- ARTICLE 1 -->
+                <article>
+                    <h3>Bài viết 1: Giới thiệu về HTML5 Semantic Elements</h3>
+                    <p class="meta">Đăng ngày: 16/10/2026 bởi Tác giả</p>
+                    <p>Các thẻ ngữ nghĩa trong HTML5 giúp cấu trúc trang web rõ ràng hơn, tốt cho SEO và hỗ trợ các công cụ đọc màn hình (Accessibility) hiệu quả hơn so với việc chỉ dùng thẻ div.</p>
+                </article>
+
+                <!-- ARTICLE 2 -->
+                <article>
+                    <h3>Bài viết 2: Kỹ thuật xây dựng Bố cục trang web</h3>
+                    <p class="meta">Đăng ngày: 15/10/2026 bởi Tác giả</p>
+                    <p>Trong thiết kế web hiện đại, việc phân định rõ các khu vực Header, Navigation, Article, Aside và Footer giúp lập trình viên quản lý và bảo trì mã nguồn dễ dàng hơn.</p>
+                </article>
+            </section>
+
+            <!-- 4. ASIDE: Cột thông tin phụ / Sidebar -->
+            <aside>
+                <h3>Danh mục phụ</h3>
+                <ul>
+                    <li><a href="#">Bài viết liên quan</a></li>
+                    <li><a href="#">Quảng cáo</a></li>
+                    <li><a href="#">Thống kê truy cập</a></li>
+                </ul>
+
+                <div class="aside-box">
+                    <h4>Thông báo</h4>
+                    <p>Chào mừng bạn đến với bài thực hành tạo bố cục bằng thẻ HTML5!</p>
+                </div>
+            </aside>
+
+        </div>
+
+        <!-- 5. FOOTER: Chân trang -->
+        <footer>
+            <p>&copy; 2026 CodeGym Practice. All rights reserved.</p>
+            <p><a href="#">Chính sách bảo mật</a> | <a href="#">Điều khoản dịch vụ</a></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
